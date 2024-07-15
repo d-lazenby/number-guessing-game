@@ -1,0 +1,6 @@
+CREATE TABLE users();
+
+ALTER TABLE users 
+  ADD COLUMN username VARCHAR(22) UNIQUE, 
+  ADD COLUMN games_played INT DEFAULT 0,
+  ADD COLUMN best_game INT DEFAULT 0;
